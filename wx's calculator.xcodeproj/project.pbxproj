@@ -14,6 +14,7 @@
 		F472A7181D212E4000F5C457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F472A7161D212E4000F5C457 /* LaunchScreen.storyboard */; };
 		F472A7231D212E4000F5C457 /* wx_s_calculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472A7221D212E4000F5C457 /* wx_s_calculatorTests.swift */; };
 		F472A72E1D212E4100F5C457 /* wx_s_calculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F472A72D1D212E4100F5C457 /* wx_s_calculatorUITests.swift */; };
+		F472A73C1D212F9A00F5C457 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F472A73B1D212F9A00F5C457 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F472A7291D212E4100F5C457 /* wx's calculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wx's calculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F472A72D1D212E4100F5C457 /* wx_s_calculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wx_s_calculatorUITests.swift; sourceTree = "<group>"; };
 		F472A72F1D212E4100F5C457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F472A73B1D212F9A00F5C457 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		F472A70C1D212E4000F5C457 /* wx's calculator */ = {
 			isa = PBXGroup;
 			children = (
+				F472A73B1D212F9A00F5C457 /* 1.jpg */,
 				F472A70D1D212E4000F5C457 /* AppDelegate.swift */,
 				F472A70F1D212E4000F5C457 /* ViewController.swift */,
 				F472A7111D212E4000F5C457 /* Main.storyboard */,
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F472A7181D212E4000F5C457 /* LaunchScreen.storyboard in Resources */,
+				F472A73C1D212F9A00F5C457 /* 1.jpg in Resources */,
 				F472A7151D212E4000F5C457 /* Assets.xcassets in Resources */,
 				F472A7131D212E4000F5C457 /* Main.storyboard in Resources */,
 			);
