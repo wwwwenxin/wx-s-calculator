@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					F472A7091D212E4000F5C457 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = LUMH9XL45S;
 					};
 					F472A71D1D212E4000F5C457 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -403,10 +404,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "wx's calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iphone.wx-s-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -414,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "wx's calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "iphone.wx-s-calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -486,6 +493,7 @@
 				F472A7341D212E4100F5C457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F472A7351D212E4100F5C457 /* Build configuration list for PBXNativeTarget "wx's calculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +502,7 @@
 				F472A7371D212E4100F5C457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F472A7381D212E4100F5C457 /* Build configuration list for PBXNativeTarget "wx's calculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +511,7 @@
 				F472A73A1D212E4100F5C457 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

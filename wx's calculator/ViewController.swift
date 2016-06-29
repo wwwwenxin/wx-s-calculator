@@ -20,7 +20,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     var temp=0.0
-    var flag:Int=0;    
+    var flag:Int=0;
+    var point=true;
   //  var num1:Double=0;
    // var num2:Double=0;
   //  var equal:Double=0;
@@ -269,6 +270,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func decimal(sender: AnyObject) {
+        if point==true{
         if( wx.text=="0")
         {
             wx.text=""
@@ -279,11 +281,14 @@ class ViewController: UIViewController {
         {
             wx.text=(wx.text)!+".";
         }
+            point=false
+        }
+    }
 
     }
 
 
-}
+
 
 
 
